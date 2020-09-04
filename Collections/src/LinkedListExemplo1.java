@@ -21,17 +21,18 @@ public class LinkedListExemplo1 {
 		System.out.println(times);
 		
 		((LinkedList<String>) times).addFirst("Vasco");
+		((LinkedList<String>) times).addLast("Santos");
 		
 		System.out.println(times);
 		
 				
-		for (int i = 0; i < times.size(); i++) {
-			System.out.println(times.get(i));
-		}
-		
+//		for (int i = 0; i < times.size(); i++) {
+//			System.out.println(times.get(i));
+//		}
+//		
 		Collections.sort(times);
 		System.out.println(times);
-		
+//		
 	}
 
 }

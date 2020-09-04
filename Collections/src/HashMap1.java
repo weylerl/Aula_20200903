@@ -18,14 +18,13 @@ public class HashMap1 {
 		capitais.put("Pernambuco","Recife");
 		capitais.put("Paraná","Curitiba");
 		capitais.put("Roraima","Boa Vista");
-
-		System.out.println(capitais);
+		capitais.put("Rio Grande do Norte","Natal");
 
 		for (String i : capitais.keySet()) {
 			System.out.println("Estado: " + i + ", Capital: " + capitais.get(i));
 		}
 
-		System.out.println(capitais.get("Piauí"));
+//		System.out.println(capitais.get("Piauí"));
 	}
 
 }

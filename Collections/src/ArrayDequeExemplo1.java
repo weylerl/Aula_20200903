@@ -15,10 +15,9 @@ public class ArrayDequeExemplo1 {
 		times.add("Sport");
 		times.add("Fluminense");
 		times.add("Palmeiras");
-		times.add("Framengo");
+		times.add("Flamengo");
 		
 		
-		System.out.println(times);
 		System.out.println(times);
 		
 		((ArrayDeque<String>) times).addFirst("Vasco");

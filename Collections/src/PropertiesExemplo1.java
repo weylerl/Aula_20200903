@@ -11,7 +11,8 @@ public class PropertiesExemplo1 {
 
 		System.out.println(p.getProperty("aplicativo"));  
 		System.out.println(p.getProperty("versao"));  
-//		System.out.println(p);  
+		System.out.println(p.getProperty("dataAtualizacao"));  
+		System.out.println(p);  
 		
 	}  
 }  
