@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -16,17 +17,19 @@ public class HashSetExemplo1 {
 
 
 		System.out.println(times);
-		//		times.set(3, "Flamengo");
+		times.remove("Framengo");
+		times.add("Flamengo");
 		System.out.println(times);
+		
+//		for (String time: times) {
+//			System.out.println(time);
+//		}
 		
 		Iterator<String> it = times.iterator();
 
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
-
-		//		Collections.sort(times);
-		//		System.out.println(times);
 
 	}
 

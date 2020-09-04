@@ -12,18 +12,23 @@ public class ArrayListExemplo2 {
 		times.add("Fluminense");
 		times.add("Palmeiras");
 		times.add("Framengo");
+		times.add("Vasco");
 		
 		
 		System.out.println(times);
 		times.set(3, "Flamengo");
 		System.out.println(times);
 		
-		for (int i = 0; i < times.size(); i++) {
-			System.out.println(times.get(i));
-		}
+//		for (int i = 0; i < times.size(); i++) {
+//			System.out.println(times.get(i));
+//		}
 		
-//		Collections.sort(times);
-//		System.out.println(times);
+//		for(String time: times) {
+//			System.out.println(time);
+//		}
+		
+		Collections.sort(times);
+		System.out.println(times);
 		
 	}
 	
